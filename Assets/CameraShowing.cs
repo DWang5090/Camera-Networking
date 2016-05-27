@@ -15,6 +15,7 @@ public class CameraShowing : NetworkBehaviour {
         }else
         {
             frontCamera.enabled = false;
+            leftCamera.enabled = false;
         }
 	}
 	
